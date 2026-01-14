@@ -23,7 +23,7 @@ facts_list = [
 @app.route('/')
 def home():
     return '<h1>Página inicial</h1>' \
-        '<p>Bem-vindo ao site de fatos interessantes!</p>' \
+        '<p>Bem-vindo ao site!</p>' \
         '<p><a href="/facts">Veja um fato aleatório!</a></p>'\
         '<p><a href="/cara e coroa">Jogue Cara ou Coroa!</a></p>'\
         '<p><a href="/gerador de senhas">Gerador de Senhas</a></p>'     
